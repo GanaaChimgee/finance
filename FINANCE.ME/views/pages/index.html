@@ -1,0 +1,11 @@
+<h4>Өнөөдрийн блогууд
+</h4>
+
+
+<?php foreach($data['webs'] as $web):?>
+
+<a href="http://finance.me/pages/view/<?=$web['alias']?>">
+    <?=$web['title']?>
+</a><br />
+
+<?php endforeach ?>
